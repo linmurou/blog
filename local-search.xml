@@ -5,8 +5,8 @@
   
   <entry>
     <title>test.md</title>
-    <link href="/2020/12/10/test/"/>
-    <url>/2020/12/10/test/</url>
+    <link href="/blog/2020/12/10/test/"/>
+    <url>/blog/2020/12/10/test/</url>
     
     <content type="html"><![CDATA[<p>这还是一篇测试</p><a id="more"></a><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs Java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HelloWorld</span></span>&#123;<br> <br>        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>&#123;<br> <br>                System.out.println(<span class="hljs-string">&quot;Hello World!&quot;</span>);<br> <br>        &#125;<br> <br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
     
@@ -24,8 +24,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="/2020/12/09/hello-world/"/>
-    <url>/2020/12/09/hello-world/</url>
+    <link href="/blog/2020/12/09/hello-world/"/>
+    <url>/blog/2020/12/09/hello-world/</url>
     
     <content type="html"><![CDATA[<p>这是第一篇测试博客</p><a id="more"></a><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br>    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;hello world!&quot;</span>);<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
     

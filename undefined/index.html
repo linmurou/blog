@@ -17,7 +17,7 @@
   <meta name="description" content="白瓷梅子汤 啷当碎冰响">
   <meta name="author" content="杨婧雅">
   <meta name="keywords" content="弱鸡">
-  <title>GitHub图床访问速度受限解决方法 ❤ 杨婧雅の小窝</title>
+  <title>与数据库的连接 ❤ 杨婧雅の小窝</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -126,7 +126,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="GitHub图床访问速度受限解决方法">
+            <span class="h2" id="subtitle" title="与数据库的连接">
               
             </span>
 
@@ -141,7 +141,7 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-12-11 22:52" pubdate>
+      <time datetime="2020-12-11 18:59" pubdate>
         December 11, 2020 pm
       </time>
     </span>
@@ -153,7 +153,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      278 字
+      363 字
     </span>
   
 
@@ -193,14 +193,35 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">GitHub图床访问速度受限解决方法</h1>
+            <h1 style="display: none">与数据库的连接</h1>
             
             <div class="markdown-body">
-              <h3 id="关于GitHub图床访问速度受限的解决方法"><a href="#关于GitHub图床访问速度受限的解决方法" class="headerlink" title="关于GitHub图床访问速度受限的解决方法"></a>关于GitHub图床访问速度受限的解决方法</h3><a id="more"></a>
-<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><h4 id="1-一个现成的GitHub仓库-充当图床的仓库"><a href="#1-一个现成的GitHub仓库-充当图床的仓库" class="headerlink" title="1. 一个现成的GitHub仓库(充当图床的仓库)"></a>1. 一个现成的GitHub仓库(充当图床的仓库)</h4><h4 id="2-PicGo"><a href="#2-PicGo" class="headerlink" title="2. PicGo"></a>2. PicGo</h4><p>怎么<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">下载PicGo</a>，亦或者是<a target="_blank" rel="noopener" href="https://www.cnblogs.com/ly-2019/p/11828790.html">怎么使用PicGo+GitHub创建个人图床</a>，可以自行摸索。</p>
-<h5 id="我主要想说明解决的问题是在使用GitHub图床时，图片有时会因为访问速度原因加载不出的解决方法。"><a href="#我主要想说明解决的问题是在使用GitHub图床时，图片有时会因为访问速度原因加载不出的解决方法。" class="headerlink" title="我主要想说明解决的问题是在使用GitHub图床时，图片有时会因为访问速度原因加载不出的解决方法。"></a>我主要想说明解决的问题是在使用GitHub图床时，图片有时会因为访问速度原因加载不出的解决方法。</h5><h5 id="在使用PicGo-GitHub创建图床的时候，你会使用如下的设置页面"><a href="#在使用PicGo-GitHub创建图床的时候，你会使用如下的设置页面" class="headerlink" title="在使用PicGo+GitHub创建图床的时候，你会使用如下的设置页面"></a>在使用PicGo+GitHub创建图床的时候，你会使用如下的设置页面</h5><p><img src="https://cdn.jsdelivr.net/gh/linmurou/XiaoYangDeImgs/img/%E5%9B%BE%E5%BA%8A%E8%AE%BE%E7%BD%AE.png" srcset="/blog/img/loading.gif" alt="PicGo的GitHub图床设置"></p>
-<h5 id="原先设置自定义域名时，设置的是-https-raw-githubusercontent-com-用户名-仓库名-分支名，然后生成的链接会是自定义域名-图片名称-后缀形成的图片的url，但因为这样形成的url会如题所说因为访问速度受限加载不出来，所以要整个CDN加速。"><a href="#原先设置自定义域名时，设置的是-https-raw-githubusercontent-com-用户名-仓库名-分支名，然后生成的链接会是自定义域名-图片名称-后缀形成的图片的url，但因为这样形成的url会如题所说因为访问速度受限加载不出来，所以要整个CDN加速。" class="headerlink" title="原先设置自定义域名时，设置的是 https://raw.githubusercontent.com/用户名/仓库名/分支名，然后生成的链接会是自定义域名+图片名称+后缀形成的图片的url，但因为这样形成的url会如题所说因为访问速度受限加载不出来，所以要整个CDN加速。"></a>原先设置自定义域名时，设置的是 <code>https://raw.githubusercontent.com/用户名/仓库名/分支名</code>，然后生成的链接会是自定义域名+图片名称+后缀形成的图片的url，但因为这样形成的url会如题所说因为访问速度受限加载不出来，所以要整个CDN加速。</h5><h5 id="使用的是-jsdeliver-的CDN加速，不为啥，因为免费。"><a href="#使用的是-jsdeliver-的CDN加速，不为啥，因为免费。" class="headerlink" title="使用的是 jsdeliver 的CDN加速，不为啥，因为免费。"></a>使用的是 jsdeliver 的CDN加速，不为啥，因为免费。</h5><h4 id="具体的使用方法"><a href="#具体的使用方法" class="headerlink" title="具体的使用方法"></a>具体的使用方法</h4><h5 id="只需要将你上图所示的图床设置中的自定义域名修改为https-cdn-jsdelivr-net-gh-你的用户名-仓库名就行了。"><a href="#只需要将你上图所示的图床设置中的自定义域名修改为https-cdn-jsdelivr-net-gh-你的用户名-仓库名就行了。" class="headerlink" title="只需要将你上图所示的图床设置中的自定义域名修改为https://cdn.jsdelivr.net/gh/你的用户名/仓库名就行了。"></a>只需要将你上图所示的图床设置中的自定义域名修改为<code>https://cdn.jsdelivr.net/gh/你的用户名/仓库名</code>就行了。</h5><hr>
-
+              <h3 id="关于Java中连接数据库的一些踩过的坑"><a href="#关于Java中连接数据库的一些踩过的坑" class="headerlink" title="关于Java中连接数据库的一些踩过的坑"></a>关于Java中连接数据库的一些踩过的坑</h3><a id="more"></a>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><blockquote>
+<p>数据库中的什么账户建立，SQLServer验证登录都应该是不会出错的，主要出错的地方一般都是中间一步，接下来就来看看。</p>
+</blockquote>
+<h4 id="关于连接数据库时的一些配置"><a href="#关于连接数据库时的一些配置" class="headerlink" title="关于连接数据库时的一些配置"></a>关于连接数据库时的一些配置</h4><h6 id="检查驱动包版本"><a href="#检查驱动包版本" class="headerlink" title="检查驱动包版本"></a>检查驱动包版本</h6><p>我自己也是在驱动包版本上被坑了，这点尤为重要，检查自己的SQLServer的version和JDK的version然后选择相对应version的驱动包，这点应该是出错率最高的了。</p>
+<h6 id="SQLServer配置管理器的配置"><a href="#SQLServer配置管理器的配置" class="headerlink" title="SQLServer配置管理器的配置"></a>SQLServer配置管理器的配置</h6><ol>
+<li>启用TCP/IP服务</li>
+</ol>
+<p>如图所示启用TCP/IP服务和Named Pipes服务<br><img src="https://cdn.jsdelivr.net/gh/linmurou/XiaoYangDeImgs/img/QQ%E5%9B%BE%E7%89%8720201211195350.png" srcset="/blog/img/loading.gif" alt="启用TCP/IP服务"></p>
+<ol start="2">
+<li>进行IP及端口设置</li>
+</ol>
+<p>右键点击上一步的<strong>TCP/IP</strong>项，然后在新弹出的窗口上方选择<strong>IP地址</strong>栏，进入后进行相关配置，将<strong>IP1</strong>和<strong>IP10</strong>的<strong>IP地址</strong>设置为<strong>127.0.0.1</strong>，然后将所有项的<strong>已启用</strong>项设置为是，并将<strong>IP1</strong>、<strong>IP10</strong>和最下方的<strong>IPAll</strong>的<strong>TCP端口</strong>设置为<strong>1433</strong>，配置完成后如图所示：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/linmurou/XiaoYangDeImgs/img/20201211203355.png" srcset="/blog/img/loading.gif" alt="IP及端口设置"><br><img src="https://cdn.jsdelivr.net/gh/linmurou/XiaoYangDeImgs/img/20201211203510.png" srcset="/blog/img/loading.gif" alt="IP及端口设置"></p>
+<ol start="3">
+<li>进行测试</li>
+</ol>
+<p>命令行窗口输入</p>
+<blockquote>
+<p>telnet 127.0.0.1 1433</p>
+</blockquote>
+<p>测试窗口如图所示：<br><img src="https://cdn.jsdelivr.net/gh/linmurou/XiaoYangDeImgs/img/20201211203904.png" srcset="/blog/img/loading.gif" alt="测试1433端口"></p>
+<p>测试成功如图所示：<br><img src="https://cdn.jsdelivr.net/gh/linmurou/XiaoYangDeImgs/img/20201211203904.png" srcset="/blog/img/loading.gif" alt="测试成功"></p>
+<p>(如何开启telnet服务请自行百度)<br>测试成功则说明成功，不成功则重新检查一遍易错点。</p>
+<hr>
+<h6 id="其实易错点还是那个驱动包的版本问题，版本问题解决了，其余的其实都是小事。"><a href="#其实易错点还是那个驱动包的版本问题，版本问题解决了，其余的其实都是小事。" class="headerlink" title="其实易错点还是那个驱动包的版本问题，版本问题解决了，其余的其实都是小事。"></a>其实易错点还是那个驱动包的版本问题，版本问题解决了，其余的其实都是小事。</h6>
             </div>
             <hr>
             <div>
@@ -210,9 +231,9 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/blog/tags/GitHub%E5%9B%BE%E5%BA%8A/">GitHub图床</a>
+                      <a class="hover-with-bg" href="/blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a>
                     
-                      <a class="hover-with-bg" href="/blog/tags/%E5%9B%BE%E5%BA%8ACDN%E5%8A%A0%E9%80%9F/">图床CDN加速</a>
+                      <a class="hover-with-bg" href="/blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5/">数据库连接</a>
                     
                   </div>
                 
@@ -225,21 +246,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/blog/2020/12/14/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%9F%E6%9C%AB%E6%A8%A1%E6%8B%9F%E6%B5%8B%E8%AF%95/">
+                      <a href="/blog/undefined/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">数据库期末模拟测试</span>
+                        <span class="hidden-mobile">GitHub图床访问速度受限解决方法</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
-                    
-                      <a href="/blog/2020/12/11/%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E8%BF%9E%E6%8E%A5/">
-                        <span class="hidden-mobile">与数据库的连接</span>
-                        <span class="visible-mobile">Next</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
                     
                   </article>
                 </div>
